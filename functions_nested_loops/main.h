@@ -36,5 +36,12 @@ int _islower(int c);
  * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise
  */
 int _isalpha(int c);
+/**
+ * print_sign - checks whether a number is positive, negative or null
+ * @c: character to be checked
+ *
+ * Return: 1 if c is positive, 0 if c is null or -1 if c is negative
+ */
+int print_sign(int c);
 
 #endif
