@@ -43,5 +43,12 @@ int _isalpha(int c);
  * Return: 1 if c is positive, 0 if c is null or -1 if c is negative
  */
 int print_sign(int c);
+/**
+ * _abs - return the absolute value of a number
+ * @n: number to be checked
+ *
+ * Return: n if the number is positive, -n if it's negative
+ */
+int _abs(int n);
 
 #endif
