@@ -49,6 +49,13 @@ int print_sign(int c);
  *
  * Return: n if the number is positive, -n if it's negative
  */
-int _abs(int n);
+int _abs(int);
+/**
+ * print_last_digit - prints the last digit of a number
+ * @n: number to be checked
+ *
+ * Return: the value of the last digit
+ */
+int print_last_digit(int);
 
 #endif
