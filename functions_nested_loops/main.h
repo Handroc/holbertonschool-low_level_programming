@@ -49,17 +49,21 @@ int print_sign(int c);
  *
  * Return: n if the number is positive, -n if it's negative
  */
-int _abs(int);
+int _abs(int n);
 /**
  * print_last_digit - prints the last digit of a number
  * @n: number to be checked
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int);
+int print_last_digit(int n);
 /**
  * jack_bauer - prints every minute of the day starting from 00:00 to 23:59.
  */
 void jack_bauer(void);
+/**
+ * times_table - prints the 9 times table, starting with 0.
+ */
+void times_table(void);
 
 #endif
