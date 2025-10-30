@@ -11,11 +11,10 @@ char *cap_string(char *a)
 
 	while (a[j] != '\0')
 		j++;
-	j--;
+	if (a[0] >= 'a' && a[0] <= 'z')
+		a[0] = a[0] - 32;
 	for (i = 1; i <= j; i++)
 	{
-		if (a[i] == '\t')
-			a[i] = ' ';
 		for (k = 0; k <= 12; k++)
 			if (a[i - 1] == s[k])
 				if (a[i] >= 'a' && a[i] <= 'z')
