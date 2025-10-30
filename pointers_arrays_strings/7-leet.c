@@ -9,6 +9,7 @@ char *leet(char *a)
 {
 	char *s1 = "aAeEoOtTlL", *s2 = "43071";
 	int i, k;
+	
 	for (i = 0; i <= 9; i++)
 	{
 		k = 0;
