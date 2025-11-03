@@ -21,5 +21,6 @@ char *string_toupper(char *a);
 char *cap_string(char *a);
 char *leet(char *a);
 int _atoi(char *s);
+char *_memset(char *s, char b, unsigned int n);
 
 #endif
